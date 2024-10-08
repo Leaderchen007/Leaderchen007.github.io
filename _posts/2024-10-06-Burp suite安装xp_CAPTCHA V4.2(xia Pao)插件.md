@@ -1,10 +1,12 @@
 ---
 title: Burp suite安装xp_CAPTCHA V4.2(xia Pao)插件
 date: 2024-10-06 14:00:00 +0800
-author: Pat1ence
+
 categories: [Burp suite,Extensions]
 tags: [Burp suite]
 
+
+author: Pat1ence
 
 pin: false
 math: true

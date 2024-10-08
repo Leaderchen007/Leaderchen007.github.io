@@ -30,13 +30,13 @@ image:
 
 
 
-![img](https://raw.githubusercontent.com/Leaderchen007/Leaderchen007.github.io/refs/heads/main/imgs/1/2.png)
+![img](https://raw.githubusercontent.com/Leaderchen007/Leaderchen007.github.io/refs/heads/master/imgs/1/2.png)
 
 
 
 3、下载
 
-![img](https://raw.githubusercontent.com/Leaderchen007/Leaderchen007.github.io/refs/heads/main/imgs/1/3.png)
+![img](https://raw.githubusercontent.com/Leaderchen007/Leaderchen007.github.io/refs/heads/master/imgs/1/3.png)
 
 
 
@@ -44,7 +44,7 @@ image:
 
 #### 1、替换python环境中的server.py
 
-![img](https://raw.githubusercontent.com/Leaderchen007/Leaderchen007.github.io/refs/heads/main/imgs/1/4.png)
+![img](https://raw.githubusercontent.com/Leaderchen007/Leaderchen007.github.io/refs/heads/master/imgs/1/4.png)
 
 ①把下载的<u>NEW_XP_CAPTCHA win64 python环境完整版.rar</u>解压，可以看到<u>NEW_xp_CAPTCHA/Python36/</u>目录下有一个server.py文件
 
@@ -65,7 +65,7 @@ github:https://github.com/smxiazi/NEW_xp_CAPTCHA
 爬虫框架feapder可快速一键接入，快速开启爬虫之旅：https://github.com/Boris-code/feapder
 ~~~
 
-![img](https://raw.githubusercontent.com/Leaderchen007/Leaderchen007.github.io/refs/heads/main/imgs/1/1.png)
+![img](https://raw.githubusercontent.com/Leaderchen007/Leaderchen007.github.io/refs/heads/master/imgs/1/1.png)
 
 ## 三、在BP上安装插件
 
@@ -79,9 +79,9 @@ github:https://github.com/smxiazi/NEW_xp_CAPTCHA
 
 在Burp Suite中依次点击[拓展]——[添加]——[选择文件]，选择NEW_xp_CAPTCHA_4.2.jkd.8.jar文件（这里本人用的jdk1.8所以导入对应的文件），直接点击[下一步]，看到successfully并且无报错，表示成功。
 
-![img](https://raw.githubusercontent.com/Leaderchen007/Leaderchen007.github.io/refs/heads/main/imgs/1/5.png)
+![img](https://raw.githubusercontent.com/Leaderchen007/Leaderchen007.github.io/refs/heads/master/imgs/1/5.png)
 
-![img](https://raw.githubusercontent.com/Leaderchen007/Leaderchen007.github.io/refs/heads/main/imgs/1/6.png)
+![img](https://raw.githubusercontent.com/Leaderchen007/Leaderchen007.github.io/refs/heads/master/imgs/1/6.png)
 
 
 

@@ -6,8 +6,6 @@ categories: [Burp suite,Extensions]
 tags: [Burp suite]
 
 
-author: Pat1ence
-
 pin: false
 math: true
 mermaid: true

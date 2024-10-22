@@ -55,10 +55,12 @@ Turbo Intruder 是一个 BurpSuite 插件，用于发送大量HTTP请求并分�
 ②开始时，可以把`concurrentConnections` 设置为 1 ，`requestsPerConnection` 设置为 100，测试单个连接的最大请求量
 
 <div class="box-tip" markdown="1">
-Reqs：请求数
-Duration：使用时间
-RPS：每秒请求数量
+>Reqs：请求数
+>Duration：使用时间
+
+>RPS：每秒请求数量
 </div>
+
 
 <div class="box-warning" markdown="1">
 <div class="title"> 这里要注意的是RPS和Retires</div>
@@ -159,7 +161,7 @@ def handleResponse(req, interesting):
 
 ~~~
 
-##### 利用
+#### - 利用
 
 **短信并发、优惠券并发、下单并发、支付并发、删除并发**、**文件上传**都可以并发
 
@@ -285,7 +287,7 @@ urls.txt里面存放URL
 
 ### 2、使用
 
-#### 基础指令
+#### (1)基础指令
 
 ~~~
 -u url地址
@@ -306,7 +308,7 @@ urls.txt里面存放URL
 -of 输出格式文件，支持html、json、md、csv、或者all
 ~~~
 
-#### 基本使用
+#### (2)基本使用
 
 ①单个字段
 
@@ -415,7 +417,7 @@ ffuf -u http://192.168.111.130/FUZZ -w ./ffuf -request test.txt -request-proto h
 ffuf -u http://127.0.0.1/FUZZ -w ../Dictionary/fuzzDicts/directoryDicts/top7000.txt -H  "User-Agent: $(randomua -d)"
 ~~~
 
-##### 子域名爆破
+#### (3)子域名爆破
 
 kali自带的一些子域名字典：
 
@@ -429,7 +431,7 @@ locate dns | grep "/usr/share" | grep ".txt"
 ffuf -w ../Discovery/DNS/bitquark-subdomains-top100000.txt -u http://shoppy.htb -H "Host:FUZZ.shoppy.htb" -fs 169
 ~~~
 
-##### 保存结果
+#### (4)保存结果
 
 - 保存为1.csv
 
@@ -443,7 +445,7 @@ ffuf -u http://www.baidu.com/FUZZ -w ../Dictionary/fuzzDicts/directoryDicts/top7
 ffuf -u http://www.baidu.com/FUZZ -w ../Dictionary/fuzzDicts/directoryDicts/top7000.txt -of html -o 1.html
 ~~~
 
-#### 匹配响应内容
+#### (5)匹配响应内容
 
 ①匹配状态码（匹配200.301）
 
@@ -471,7 +473,7 @@ ffuf -u http://192.168.111.130/FUZZ -w ../Dictionary/fuzzDicts/directoryDicts/to
 -mr "phpmyadmin"
 ~~~
 
-#### 过滤响应内容
+#### (6)过滤响应内容
 
 ①过滤状态码
 
@@ -503,7 +505,7 @@ ffuf -u http://192.168.111.130/FUZZ -w ../Dictionary/fuzzDicts/directoryDicts/to
 fr "phpmyadmin"
 ~~~
 
-#### 其他参数
+#### (7)其他参数
 
 ①颜色输出
 

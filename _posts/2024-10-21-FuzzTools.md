@@ -7,7 +7,7 @@ categories: [Fuzz,Tools]
 tags: [Fuzz]
 
 
-pin: ture
+pin: false
 math: true
 mermaid: true
 image:

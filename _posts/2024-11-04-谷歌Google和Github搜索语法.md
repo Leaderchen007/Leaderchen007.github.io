@@ -9,8 +9,6 @@ tags: [Information,Grammar]
 pin: false
 math: true
 mermaid: true
-image:
-  path: /imgs/2/sitelogo.png
 ---
 
 

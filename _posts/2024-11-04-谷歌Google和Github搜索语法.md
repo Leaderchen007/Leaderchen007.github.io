@@ -238,7 +238,7 @@ in:readme XXX
 ~~~
 stars:>3000 XXX   //stars数量大于3000
 
-stars：1000..3000 XXX    //stars数量大于1000小于3000
+stars:1000..3000 XXX    //stars数量大于1000小于3000
 ~~~
 
 
@@ -246,7 +246,7 @@ stars：1000..3000 XXX    //stars数量大于1000小于3000
 ### 5、fork数限制搜索
 
 ~~~
-forks:1000 XXX   //forks数量大于1000的
+forks:>1000 XXX   //forks数量大于1000的
 
 forks:1000..3000 XXX   //orks数量大于1000小于3000
 ~~~

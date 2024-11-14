@@ -207,6 +207,20 @@ site:target.com AND inurl:upload.asp or inurl:upload_soft.asp
 
 [Google Hacking Database (GHDB) - Google Dorks, OSINT, Recon](https://www.exploit-db.com/google-hacking-database)
 
+如果扫描器扫到的网站管理人员的信息（账号，邮箱），可以根据信息搜索
+
+~~~
+site:github.com smtp 
+site:github.com smtp @qq.com
+site:github.com smtp @126.com
+site:github.com smtp @163.com
+site:github.com smtp @sina.com.cn
+site:github.com smtp password
+site:github.com string password smtp
+~~~
+
+
+
 ## 二、Github语法
 
 ### 1、按照项目/仓库名称搜索
